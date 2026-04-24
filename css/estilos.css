@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(blue,green);
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    color: aqua;
+    transition: 10s;
+}
+
+button::shadow{
+    color: aquamarine;
+    transition: 2s;
+}
